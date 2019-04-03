@@ -79,7 +79,7 @@ class TodoForm extends Component{
     return(
       //take class name from Bulma CSS
       <form ref="form" onSubmit={this.onSubmit} className="form-inline">
-        <input type="text" ref="itemName" placeholder="add new task" className="orm-control"/>
+        <input type="text" ref="itemName" placeholder="add new task" className="form-control"/>
         <button type="submit" className="button is-danger">Add</button>
       </form>
     );
